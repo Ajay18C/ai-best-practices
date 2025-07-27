@@ -1,6 +1,6 @@
 import os
 
-from llm_factory.config.llm_provider_settings import LLMProviderSettings
+from .llm_provider_settings import LLMProviderSettings
 
 
 class AnthropicSettings(LLMProviderSettings):

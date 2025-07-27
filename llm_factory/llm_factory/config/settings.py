@@ -2,8 +2,8 @@ from functools import lru_cache
 
 from pydantic.v1 import BaseSettings
 
-from llm_factory.config.anthropic_settings import AnthropicSettings
-from llm_factory.config.openai_settings import OpenAISettings
+from .anthropic_settings import AnthropicSettings
+from .openai_settings import OpenAISettings
 
 
 class Settings(BaseSettings):

@@ -3,8 +3,8 @@ import instructor
 from anthropic import Anthropic
 from openai import OpenAI
 from pydantic import BaseModel
-from llm_factory.config.settings import get_settings
-from llm_factory.model.llm_client import LLMClient
+from .config.settings import get_settings
+from .model.llm_client import LLMClient
 
 
 class LLMFactory:

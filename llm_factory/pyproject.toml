@@ -1,11 +1,12 @@
 [project]
-name = "llm_factory"
+name = "LLM-Factory"
 version = "0.1.0"
-description = "Add your description here"
+description = "A factory to obtain LLM clients using Instructor, enabling support for multiple LLM providers with minimal code."
 requires-python = ">=3.13"
 dependencies = [
     "anthropic>=0.59.0",
     "instructor>=1.10.0",
     "openai>=1.97.1",
+    "pydantic>=2.11.7",
     "python-dotenv>=1.1.1",
 ]
