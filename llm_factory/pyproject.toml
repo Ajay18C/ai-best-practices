@@ -1,0 +1,11 @@
+[project]
+name = "llm_factory"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.59.0",
+    "instructor>=1.10.0",
+    "openai>=1.97.1",
+    "python-dotenv>=1.1.1",
+]
